@@ -1,7 +1,8 @@
 import numpy as np
 from pathlib import Path
-from ..BoardDefines import RED, BLACK, compare_images
+from ..BoardDefines import RED, BLACK
 from ..Board import Board
+from TestHelpers import compare_images
 
 class Test_board:
     def test_available_cols(self):

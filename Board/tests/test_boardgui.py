@@ -2,7 +2,8 @@ import pytest
 import numpy as np
 from pathlib import Path
 from Board import BoardGUI
-from Defines import *
+from ..BoardDefines import *
+from TestHelpers import compare_images
 
 class Test_BoardGUI:
     def test_simple_render(self):
